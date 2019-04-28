@@ -1,0 +1,22 @@
+/* Defining variables on Root level */
+:root {
+	--size: 40px;
+	--radius: 15%;
+	--color: #2f4db0;
+}
+
+.outer {
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.element {
+	width: var(--size);
+	height: var(--size);
+	border-radius: var(--radius);
+	background-color: var(--color);
+}

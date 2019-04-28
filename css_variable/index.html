@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CSS Variables Tesing</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<section class="controls">
@@ -10,13 +11,20 @@
 		<hr>
 		<label for="size">Size:</label>
 		<input type="range" name="size" id="size" min="10" max="400" value="40">
+		<br>
 		<label for="radius">Border Radius:</label>
-		<input type="range" name="radius" id="radius" min="10" max="50" value="15">
+		<input type="range" name="radius" id="radius" min="0" max="50" value="15">
+		<br>
 		<label for="color">Color:</label>
 		<input type="color" name="color" id="color" value="#2f4db0">
 	</section>
 	<section class="product">
-		<div>&nbsp;</div>
+		<h1>Demo</h1>
+		<hr>
+		<div class="outer">
+			<div class="element">&nbsp;</div>
+		</div>
 	</section>
+	<script src="script.js"></script>
 </body>
 </html>
